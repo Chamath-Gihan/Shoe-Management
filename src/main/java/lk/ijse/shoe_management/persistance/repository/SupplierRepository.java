@@ -12,7 +12,7 @@ public interface SupplierRepository extends JpaRepository<Supplier,String> {
     Supplier findBySupplierCode(String id);
 
     void deleteBySupplierCode(String id);
-    
+
     @Query(value = "SELECT supplier_code FROM Suppliers ORDER BY supplier_code DESC LIMIT 1", nativeQuery = true)
     String findLatestSupplierCode();
 }
