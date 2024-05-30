@@ -3,7 +3,7 @@ package lk.ijse.shoe_management.persistance.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import java.util.function.Supplier;
+import lk.ijse.shoe_management.persistance.entity.Supplier;
 
 public interface SupplierRepository extends JpaRepository<Supplier,String> {
 

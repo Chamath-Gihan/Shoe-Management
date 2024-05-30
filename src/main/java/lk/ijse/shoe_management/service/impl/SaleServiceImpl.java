@@ -67,7 +67,7 @@ public class SaleServiceImpl implements SaleService {
         if(salesRepository.existsByOrderNo(salesDTO.getOrderNo())){
             throw new DublicateRecordException("This Sales "+salesDTO.getOrderNo()+" already exicts...");
         }
-        
+
         SalesDTO newsalesDTO = modelMapper.map(salesRepository.save(modelMapper.map(
                 salesDTO, Sales.class)), SalesDTO.class
         );
