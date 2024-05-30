@@ -8,6 +8,6 @@ public interface EmployeeRepository extends JpaRepository<Employee,String> {
     Boolean existsByEmployeeCode(String id);
 
     Employee findByEmployeeCode(String id);
-    
+
     void deleteByEmployeeCode(String id);
 }
