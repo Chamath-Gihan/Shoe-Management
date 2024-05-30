@@ -16,7 +16,7 @@ import java.util.Date;
 @NoArgsConstructor
 public class CustomerDTO {
 
-    @Null(message = "Supplier CODE is auto genarated")
+    @Null(message = "Supplier CODE is auto generated")
     private String customerCode;
     @NotBlank(message = "Customer Name Cannot Be Null")
     @Pattern(regexp = "^[a-zA-Z]+(?:[ '-][a-zA-Z]+)*$", message = "Name not valid")
