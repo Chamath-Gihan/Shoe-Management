@@ -13,6 +13,6 @@ public interface SaleService {
     SalesDTO saveSales(SalesDTO salesDTO);
 
     void updateSales(String id, SalesDTO salesDTO);
-    
+
     void deleteSales(String id);
 }
