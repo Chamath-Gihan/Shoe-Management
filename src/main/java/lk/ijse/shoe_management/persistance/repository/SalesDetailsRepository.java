@@ -12,6 +12,6 @@ public interface SalesDetailsRepository extends JpaRepository<SalesDetails,Strin
     List<SalesDetails> findAllBySalesOrderNo(String id);
 
     void deleteAllBySalesOrderNo(String id);
-    
+
     Boolean existsAllBySalesOrderNo(String id);
 }
