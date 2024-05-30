@@ -52,6 +52,6 @@ public class CustomerDTO {
     @NotBlank(message = "Customer Email Cannot Be Null")
     @Pattern(regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$", message = "Email not valid")
     private String email;
-    
+
     private Date recentPurchaseDateTime;
 }
