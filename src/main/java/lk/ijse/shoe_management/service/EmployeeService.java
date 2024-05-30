@@ -13,6 +13,6 @@ public interface EmployeeService {
     EmployeeDTO saveEmployee(EmployeeDTO employeeDTO);
 
     void updateEmployee(String id, EmployeeDTO employeeDTO);
-    
+
     void deleteEmployee(String id);
 }
