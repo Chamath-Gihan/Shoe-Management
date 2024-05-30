@@ -9,7 +9,7 @@ public interface CustomerRepository extends JpaRepository<Customer, String> {
     Customer findByCustomerCode(String id);
 
     Boolean existsByCustomerCode(String id);
-    
+
     void deleteByCustomerCode(String id);
 
     @Query(value = "SELECT customer_code FROM Customers ORDER BY customer_code DESC LIMIT 1", nativeQuery = true)
