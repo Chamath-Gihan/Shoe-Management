@@ -36,4 +36,6 @@ public class SalesInventoryDTO {
     @NotNull(message = "Item quantity is required")
     @Pattern(regexp = "^[1-9][0-9]*$", message = "Invalid quantity format. Must be a positive integer.")
     private Integer quantity;
+
+    private SalesDTO sales;
 }
