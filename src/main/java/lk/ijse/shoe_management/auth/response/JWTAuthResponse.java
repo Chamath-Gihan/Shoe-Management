@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class JWTAuthResponse {
-    
+
     private String token;
 }
