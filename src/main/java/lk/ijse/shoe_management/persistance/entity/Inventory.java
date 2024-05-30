@@ -53,5 +53,4 @@ public class Inventory {
 
     @Column(name = "status", nullable = false)
     private String status;
-
 }
