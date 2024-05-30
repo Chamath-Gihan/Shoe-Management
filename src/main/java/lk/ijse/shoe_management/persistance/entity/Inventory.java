@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Supplier;
 
 @Getter
@@ -53,4 +55,7 @@ public class Inventory {
 
     @Column(name = "status", nullable = false)
     private String status;
+
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy =  "inventory")
+    private List<SalesDetails> salesDetails = new ArrayList<>();
 }
