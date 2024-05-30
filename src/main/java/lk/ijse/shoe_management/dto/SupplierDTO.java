@@ -3,6 +3,7 @@ package lk.ijse.shoe_management.dto;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
+import lk.ijse.shoe_management.util.Category;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -22,6 +23,8 @@ public class SupplierDTO {
     @Pattern(regexp = "^[a-zA-Z]+(?:[ '-][a-zA-Z]+)*$", message = "Invalid name format")
     @Size(min = 1, max = 100, message = "Supplier name must be between 1 and 100 characters")
     private String supplierName;
+
+    private Category category;
 
     @NotBlank(message = "Address Line 01 is required")
     private String addressLine01;
