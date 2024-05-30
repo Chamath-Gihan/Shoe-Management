@@ -8,6 +8,6 @@ public interface SalesRepository extends JpaRepository<Sales,String> {
     Boolean existsByOrderNo(String id);
 
     Sales findByOrderNo(String id);
-    
+
     void deleteByOrderNo(String id);
 }
