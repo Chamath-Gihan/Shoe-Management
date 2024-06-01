@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Customer</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+    <!-- Favicon -->
+    <!--<link href="img/favicon.ico" rel="icon">-->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/Customer.css" rel="stylesheet">
+    <link rel="stylesheet" href="../font/Heebo/stylesheet.css">
+
+
+
+</head>
+<body>
+    <div class="container-xxl position-relative bg-white d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar bg-light navbar-light">
+                <a href="dashboard.html" class="navbar-brand mx-4 mb-3">
+                    <h3 class="text-primary"><i class="fa-solid fa-shoe-prints" style="color: #74C0FC;"></i> HELLO Shoes</h3>
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4">
+                    <div class="position-relative">
+                        <img class="rounded-circle" src="../img/user.jpg" alt="" style="width: 40px; height: 40px;">
+                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="mb-0">Manager</h6>
+                        <span>Admin</span>
+                    </div>
+                </div>
+                <div class="navbar-nav w-100">
+                    <a href="dashboard.html" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="customer.html" class="nav-item nav-link active"><i class="fa fa-th me-2"></i>Customer</a>
+                    <a href="sale.html" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Sale</a>
+                    <a href="inventory.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Inventory</a>
+                    <a href="supplier.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Suppliers</a>
+                    <a href="employee.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Employees</a>
+                    <a href="user.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>User</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Sidebar End -->
+
+
+        <!-- Content Start -->
+        <div class="content">
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
+                <a href="dashboard.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <form class="d-none d-md-flex ms-4">
+                    <input class="form-control border-0" id="search" type="search" style="margin-bottom: 0px " placeholder="Search">
+                    <button type="button" class="btn btn-outline-warning customerdataget" style="margin-left: 20px" >Search</button>
+
+                </form>
+                <div class="navbar-nav align-items-center ms-auto">
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <img class="rounded-circle me-lg-2" src="../img/user.jpg" alt="" style="width: 40px; height: 40px;">
+                            <span class="d-none d-lg-inline-flex">Manager</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
+                            <a href="../pages/profile.html" class="dropdown-item">My Profile</a>
+                            <!--<a href="#" class="dropdown-item">Settings</a>-->
+                            <a href="../index.html" class="dropdown-item">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!--Form Page Start-->
+            <section id="customer" class="container py-5 p-lg-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="mb-3">Customer Code:</h6>
+                        <input type="text" placeholder="Enter Customer Code" class="form-control mb-4 w-75 customercode">
+
+                        <h6 class="mb-3">Customer Name:</h6>
+                        <input type="text" placeholder="Enter Customer Name" class="form-control mb-4 w-75 customername">
+
+
+
+                        <div class="mb-4" >
+                            <label for="inputGender" class="form-label"><b>Gender</b></label>
+                            <select id="inputGender" class="form-select mb-4 w-75 customergender">
+                                <option disabled selected>Gender</option>
+                                <option value="1">MALE</option>
+                                <option value="2">FEMALE</option>
+                                <option value="3">OTHER</option>
+                            </select>
+                        </div>
+
+                        <h6 class="mb-3">Join date as a loyalty customer:</h6>
+                        <input type="date"  class="form-control mb-4 w-75 joindate">
+
+                        <div class="mb-4">
+                            <label for="customerlevel" class="form-label "><b>Level</b></label>
+                            <select id="customerlevel" class="form-select mb-4 w-75 customerlevel">
+                                <option disabled selected>Level</option>
+                                <option value="1"> GOLD</option>
+                                <option value="2">SILVER</option>
+                                <option value="3">BRONZE</option>
+                                <option value="4">NEW</option>
+                            </select>
+                        </div>
+
+                        <h6 class="mb-3">Total points:</h6>
+                        <input type="text" id="customertotalpoints" class="form-control mb-4 w-75 customertotalpoints">
+
+                        <h6 class="mb-3">DOB:</h6>
+                        <input type="date" id="customerdob" class="form-control mb-4 w-75 customerdob">
+
+                        <h6 class="mb-3">Recent purchase date and time:</h6>
+                        <input type="datetime-local" id="customerrecentpurchasedatetime" class="form-control mb-4 w-75 customerrecentpurchasedatetime">
+                    </div>
+
+                    <div class="col-md-6">
+                        <h6 class="mb-3">Building NO:</h6>
+                        <input type="text" id="customeraddressline01" placeholder="Enter Building NO" class="form-control mb-4 w-75 customeraddressline01">
+
+                        <h6 class="mb-3">Lane:</h6>
+                        <input type="text" id="customeraddressline02" placeholder="Enter Lane" class="form-control mb-4 w-75 customeraddressline02">
+
+                        <h6 class="mb-3">Main City:</h6>
+                        <input type="text" id="customeraddressline03" placeholder="Enter Main City" class="form-control mb-4 w-75 customeraddressline03">
+
+                        <h6 class="mb-3">Main State:</h6>
+                        <input type="text" id="customeraddressline04" placeholder="Enter Main State" class="form-control mb-4 w-75 customeraddressline04">
+
+                        <h6 class="mb-3">Postal Code:</h6>
+                        <input type="text" id="customeraddressline05" placeholder="Enter Postal Code" class="form-control mb-4 w-75 customeraddressline05">
+
+                        <h6 class="mb-3">Contact No.:</h6>
+                        <input type="text" id="customercontactno" placeholder="Enter Contact No" class="form-control mb-4 w-75 customercontactno">
+
+                        <h6 class="mb-3">Email:</h6>
+                        <input type="text" id="customeremail" placeholder="Enter email" class="form-control mb-4 w-75 customeremail">
+
+                        <div class="d-grid gap-2 d-md-flex my-5">
+                            <button  class="btn btn-outline-primary me-md-2 customerdatasave" type="submit">Save</button>
+                            <button  class="btn btn-outline-warning customerdataupdate" type="button">Update</button>
+                            <button  class="btn btn-outline-danger customerdatadelete" type="button">Delete</button>
+                            <button  class="btn btn-outline-success customeralldataget" type="button">Get All</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table customertable" id="customertable">
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Name</th>
+                                <th>Gender</th>
+                                <th>Join date</th>
+                                <th>Level</th>
+                                <th>Total points</th>
+                                <th>DOB</th>
+                                <th>Address</th>
+                                <th>Contact No</th>
+                                <th>Email</th>
+                                <th>Purchase date & time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+            <!--Form Page End-->
+
+        </div>
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    </div>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/chart/chart.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+    <script src="../ajax/customer/Customer.js"></script>
+    <script src="../assets/script/customerform/CustomerForm.js"></script>
+    <script src="../assets/script/jquery-3.7.1.min.js"></script>
+    <script src="../ajax/GlobalAttr.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(120deg, #2980b9, #8e44ad);
+            font-family: 'Heebo', sans-serif;
+        }
+        .container {
+            padding: 50px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 400px;
+            max-width: 100%;
+        }
+        .container h1 {
+            margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        .social-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .social-container a {
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            margin: 0 5px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            text-decoration: none;
+        }
+        .container span {
+            display: block;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #2980b9;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #3498db;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <form action="#">
+        <h1>Sign Up</h1>
+        <div class="social-container">
+            <a href="https://github.com/Chamath-Gihan" target="_blank" class="social"><i class="fab fa-github"></i></a>
+            <a href="https://Codepen.io/" target="_blank" class="social"><i class="fab fa-codepen"></i></a>
+            <a href="mailto:wchamathgihan@gmail.com" target="_blank" class="social"><i class="fab fa-google"></i></a>
+        </div>
+        <span>Or use your Email for registration</span>
+        <label>
+            <input type="email" placeholder="Email" required/>
+        </label>
+        <label>
+            <input type="password" placeholder="Password" required/>
+        </label>
+        <select id="role" class="form-select" required>
+            <option disabled selected>Role</option>
+            <option value="admin">ADMIN</option>
+            <option value="user">USER</option>
+        </select>
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
