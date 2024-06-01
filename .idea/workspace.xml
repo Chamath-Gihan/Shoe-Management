@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f07342cb-bf45-469d-9030-761362ae94af" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/ShoeManagementApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/advice/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/auth/request/SignInRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/auth/request/SignUpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/auth/response/JWTAuthResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/config/JwtConfigurationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/config/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/dto/CustomerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/dto/EmployeeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/dto/InventoryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/dto/SalesDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/dto/SalesInventoryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/dto/SupplierDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/entity/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/entity/Sales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/entity/SalesDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/entity/Supplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/repository/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/repository/InventoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/repository/SalesDetailsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/repository/SalesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/repository/SecurityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/repository/SupplierRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/persistance/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/InventoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/JWTService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/SaleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/SupplierService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/exception/DublicateRecordException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/exception/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/exception/ServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/impl/AuthenticationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/impl/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/impl/InventoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/impl/JWTServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/impl/SaleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/impl/SupplierServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/util/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/util/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/util/Level.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/shoe_management/util/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lk/ijse/shoe_management/ShoeManagementApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2hC74Yju2tiJMVg5cBjFxwIpQIU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.shoe_management.service.exception" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f07342cb-bf45-469d-9030-761362ae94af" name="Changes" comment="" />
+      <created>1717086015229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717086015229</updated>
+    </task>
+    <servers />
+  </component>
+</project>
